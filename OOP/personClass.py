@@ -45,7 +45,7 @@ dropout1 = Dropout("Mr", "Idiot", 2020)
 dropout1.printname()
 dropout1.dropoutyear()
 
-#OVERRIDING sub classes have same , parameters, signature
+#OVERRIDING sub classes have same methods , parameters, signature
 class overRide(Person):
     def __init__(self, fname, lname):
         super().__init__(fname, lname)
